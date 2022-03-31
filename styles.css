@@ -133,3 +133,12 @@ nav h1{
     background: transparent;
     cursor: pointer;
 }
+
+/* Footer */
+
+footer{
+    background: var(--dark-bg-color);
+    text-align: center;
+    color: var(--hero-secondary-color);
+    padding: 2% 0
+}
