@@ -110,3 +110,26 @@ nav h1{
     padding: 0 15%;
 
 }
+
+/* CTA Section */
+
+#cta{
+    margin: 5% 15%;
+    background: var(--cta-bg-color);
+    color: var(--hero-secondary-color);
+    padding: 3% 10%;
+    border-radius: 20px;
+}
+.cta-container{
+    display: flex;
+    justify-content: space-between;
+}
+#cta-signup{
+    border: 3px solid white;
+    color: white;
+    padding: 0 5%;
+    font-size: 18px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+}
