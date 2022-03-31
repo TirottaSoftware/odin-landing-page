@@ -64,3 +64,31 @@ nav h1{
     padding: 7.5px 40px;
     border-radius: 10px;
 }
+
+/* Info Section */
+
+#info{
+    padding: 5% 15%;
+}
+.section-title{
+    font-size: 36px;
+    color: var(--info-header-text);
+    font-weight: 900;
+    text-align: center;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 0 10%;
+}
+.info-card{
+    width: 200px;
+    text-align: center;
+}
+.card-img{
+    border: 5px solid var(--cta-bg-color);
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
